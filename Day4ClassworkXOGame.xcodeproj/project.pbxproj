@@ -13,6 +13,8 @@
 		AED2B74C2464ACBA0019F8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED2B74B2464ACBA0019F8FD /* Assets.xcassets */; };
 		AED2B74F2464ACBA0019F8FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED2B74E2464ACBA0019F8FD /* Preview Assets.xcassets */; };
 		AED2B7522464ACBA0019F8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED2B7502464ACBA0019F8FD /* LaunchScreen.storyboard */; };
+		AED2B75B2465A5C60019F8FD /* XOGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2B75A2465A5C60019F8FD /* XOGame.swift */; };
+		AED2B75D2465FD070019F8FD /* ChoosePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED2B75C2465FD070019F8FD /* ChoosePlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AED2B74E2464ACBA0019F8FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AED2B7512464ACBA0019F8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED2B7532464ACBA0019F8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AED2B75A2465A5C60019F8FD /* XOGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOGame.swift; sourceTree = "<group>"; };
+		AED2B75C2465FD070019F8FD /* ChoosePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 				AED2B7472464ACB70019F8FD /* SceneDelegate.swift */,
 				AED2B7492464ACB70019F8FD /* ContentView.swift */,
 				AED2B74B2464ACBA0019F8FD /* Assets.xcassets */,
+				AED2B7592464AD110019F8FD /* XO Game */,
 				AED2B7502464ACBA0019F8FD /* LaunchScreen.storyboard */,
 				AED2B7532464ACBA0019F8FD /* Info.plist */,
 				AED2B74D2464ACBA0019F8FD /* Preview Content */,
@@ -73,6 +78,15 @@
 				AED2B74E2464ACBA0019F8FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AED2B7592464AD110019F8FD /* XO Game */ = {
+			isa = PBXGroup;
+			children = (
+				AED2B75A2465A5C60019F8FD /* XOGame.swift */,
+				AED2B75C2465FD070019F8FD /* ChoosePlayer.swift */,
+			);
+			path = "XO Game";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED2B75B2465A5C60019F8FD /* XOGame.swift in Sources */,
 				AED2B7462464ACB70019F8FD /* AppDelegate.swift in Sources */,
+				AED2B75D2465FD070019F8FD /* ChoosePlayer.swift in Sources */,
 				AED2B7482464ACB70019F8FD /* SceneDelegate.swift in Sources */,
 				AED2B74A2464ACB70019F8FD /* ContentView.swift in Sources */,
 			);
